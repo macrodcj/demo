@@ -8,9 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by adminstrator on 2017/11/24.
- */
 @Service
 public class UserService extends ServiceImpl<UserMapper, User> {
 

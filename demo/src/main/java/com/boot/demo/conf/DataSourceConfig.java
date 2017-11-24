@@ -22,10 +22,7 @@ import org.springframework.util.StringUtils;
 
 import javax.sql.DataSource;
 
-/**
- * Created by summer on 2016/11/25.
- * 扫描的时候必须完全隔离
- */
+
 @Configuration
 @EnableConfigurationProperties(MybatisProperties.class)
 @MapperScan(basePackages = "com.boot.demo.mapper")

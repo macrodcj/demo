@@ -22,11 +22,6 @@ import java.util.List;
 import static com.google.common.base.Predicates.or;
 import static springfox.documentation.builders.PathSelectors.regex;
 
-/**
- * @Description:swg-ui配置类
- * @author:dcj
- * @time:2017年7月22日 上午10:53:05
- */
 @Configuration
 @EnableSwagger2
 @ConditionalOnProperty(name = "swagger.enabled")
